@@ -4,8 +4,9 @@ Turn your Raspberry Pi into a development nodejs server configured to auto start
 app, watch and reload your node app when files change automatically.
 
 > PLEASE NOTE: This guide assumes you have already completed the first boot configuration
-> of your raspberry pi and are logged in via SSH or terminal in X.
-
+> of your raspberry pi and are logged in via SSH or terminal in X and are performing each
+> step below in the order they're written.
+  
 ##### Create a safe user account for serving the nodejs app
 ```
 sudo useradd -s /bin/bash -m -d /home/myuser -c "safe myuser account" myuser
