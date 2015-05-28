@@ -80,6 +80,7 @@ pm2 save
 ##### Start the node app with PM2
 ```
 pm2 start app.js --watch
+```
 This will preserve last known state of the node app and add it to PM2's
 list of apps for later auto load. The --watch flag ensures the app is
 automatically restarted when files are changed.
