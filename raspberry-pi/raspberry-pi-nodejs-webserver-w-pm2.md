@@ -1,6 +1,9 @@
 # Raspberry Pi Nodejs Web Server w/ PM2
 
-> This guide assumes you have already completed the first boot configuration
+Turn your Raspberry Pi into a development nodejs server configured to auto start your node
+app, watch and reload your node app when files change automatically.
+
+> PLEASE NOTE: This guide assumes you have already completed the first boot configuration
 > of your raspberry pi and are logged in via SSH or terminal in X.
 
 1. Create a safe user account for serving the nodejs app
